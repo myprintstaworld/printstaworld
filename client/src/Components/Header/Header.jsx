@@ -10,7 +10,8 @@ import hamburger from "../../img/hamburger.png";
 function Header() {
   return (
     <>
-      <header className="w-full px-10 max-sm:bg-[#832C82]">
+    {/* <header className="w-[85vw] border border-solid border-black"> */}
+      <header className="w-full px-10 max-sm:bg-[#832C82] xl:px-52">
         <div className="flex justify-between bg-[#F8F9FA] items-center w-full">
           <p className="max-sm:hidden">
             FREE SHIPPING FOR ALL ORDERS OF <span>&#x20b9;</span>999
@@ -20,8 +21,8 @@ function Header() {
           </button>
         </div>
       </header>
-      <header className="md:block max-md:hidden">
-        <div className="flex h-16 justify-between px-5">
+      <header className="md:block max-md:hidden ">
+        <div className="flex h-16 justify-between px-5 xl:px-52">
           <div className="flex items-center">
             <img className="w-14 h-14 mr-4" src={logo} alt="" />
             <div className="flex h-10 p-2 rounded-[0.2rem] items-center border border-solid border-gray-300">
@@ -47,34 +48,34 @@ function Header() {
             </button>
           </div>
         </div>
-        <div className="flex h-10 justify-between px-5 w-full">
-          <nav className="flex w-full">
+        <div className="flex h-10 justify-between w-full">
+          <nav className="flex w-full xl:px-40 bg-[#F8F9FA]">
             <ul className="flex w-full justify-between items-center">
-              <li className="hover:border-b-2 hover:border-orange-500 border-white border-b-2 hover:text-orange-500 cursor-pointer">
+              <li className="hover:border-b-2 hover:border-orange-500 border-[#F8F9FA] border-b-2 hover:text-orange-500 cursor-pointer md:px-5 px-2 max-md:text-sm">
                 Calendars
               </li>
-              <li className="hover:border-b-2 hover:border-orange-500 border-white border-b-2 hover:text-orange-500 cursor-pointer">
+              <li className="hover:border-b-2 hover:border-orange-500 border-[#F8F9FA] border-b-2 hover:text-orange-500 cursor-pointer md:px-5 px-2 max-md:text-sm">
                 Packaging
               </li>
-              <li className="hover:border-b-2 hover:border-orange-500 border-white border-b-2 hover:text-orange-500 cursor-pointer">
+              <li className="hover:border-b-2 hover:border-orange-500 border-[#F8F9FA] border-b-2 hover:text-orange-500 cursor-pointer md:px-5 px-2 max-md:text-sm">
                 Photo Gifts
               </li>
-              <li className="hover:border-b-2 hover:border-orange-500 border-white border-b-2 hover:text-orange-500 cursor-pointer">
+              <li className="hover:border-b-2 hover:border-orange-500 border-[#F8F9FA] border-b-2 hover:text-orange-500 cursor-pointer md:px-5 px-2 max-md:text-sm">
                 Same Day Delivery
               </li>
-              <li className="hover:border-b-2 hover:border-orange-500 border-white border-b-2 hover:text-orange-500 cursor-pointer">
+              <li className="hover:border-b-2 hover:border-orange-500 border-[#F8F9FA] border-b-2 hover:text-orange-500 cursor-pointer md:px-5 px-2 max-md:text-sm">
                 Rewards
               </li>
-              <li className="hover:border-b-2 hover:border-orange-500 border-white border-b-2 hover:text-orange-500 cursor-pointer">
+              <li className="hover:border-b-2 hover:border-orange-500 border-[#F8F9FA] border-b-2 hover:text-orange-500 cursor-pointer md:px-5 px-2 max-md:text-sm">
                 Decorate
               </li>
-              <li className="hover:border-b-2 hover:border-orange-500 border-white border-b-2 hover:text-orange-500 cursor-pointer">
+              <li className="hover:border-b-2 hover:border-orange-500 border-[#F8F9FA] border-b-2 hover:text-orange-500 cursor-pointer md:px-5 px-2 max-md:text-sm">
                 Stationery
               </li>
-              <li className="hover:border-b-2 hover:border-orange-500 border-white border-b-2 hover:text-orange-500 cursor-pointer">
+              <li className="hover:border-b-2 hover:border-orange-500 border-[#F8F9FA] border-b-2 hover:text-orange-500 cursor-pointer md:px-5 px-2 max-md:text-sm">
                 Sign & Markiting
               </li>
-              <li className="hover:border-b-2 hover:border-orange-500 border-white border-b-2 hover:text-orange-500 cursor-pointer">
+              <li className="hover:border-b-2 hover:border-orange-500 border-[#F8F9FA] border-b-2 hover:text-orange-500 cursor-pointer md:px-5 px-2 max-md:text-sm">
                 Corporate Gifts
               </li>
             </ul>
@@ -88,7 +89,8 @@ function Header() {
           <img className="w-8 h-8" src={logo} alt="" />
           <img className="w-8 h-8" src={cart} alt="" />
         </div>
-      </header>
+    </header>
+      {/* </header> */}
     </>
   );
 }
