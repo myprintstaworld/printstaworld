@@ -41,7 +41,7 @@ function SamplePrevArrow(props) {
   );
 }
 
-function BrowserSlider() {
+function SignMarkiting() {
   const settings = {
     dots: false,
     infinite: false,
@@ -54,7 +54,9 @@ function BrowserSlider() {
 
   return (
    <>
-   <div className='text-center mt-10 mb-2 text-2xl font-semibold'>Browse All Categories</div>
+   <div className='text-center mt-10 mb-2 text-2xl font-semibold'>
+    Sign & Markiting
+    </div>
    <div className='w-full m-auto'>
     <div>
    <Slider {...settings}>
@@ -73,7 +75,7 @@ function BrowserSlider() {
   )
 }
 
-export default BrowserSlider
+export default SignMarkiting
 
 export const productData = [
   {

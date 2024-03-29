@@ -89,3 +89,122 @@ function Header() {
 }
 
 export default Header;
+
+
+
+
+
+
+
+
+
+
+
+
+
+import React from 'react'
+import Carousel from "react-multi-carousel"
+import "react-multi-carousel/lib/styles.css";
+import ProductSlide from './ProductSlide';
+
+function BrowserSlider() {
+
+  const product = productData.map((item)=>(
+    <ProductSlide
+    name={item.name}
+    url={item.url}
+    />
+  ))
+
+  return (
+    <>
+    <div className='border border-solid border-red-500 flex justify-center w-screen'>
+      <Carousel responsive={responsive} className=' p-0 border border-solid border-black'>
+        {product}
+      </Carousel>
+    </div>
+    </>
+  )
+}
+
+export default BrowserSlider
+
+
+
+const responsive = {
+  superLargeDesktop: {
+    // the naming can be any, depends on you.
+    breakpoint: { max: 1296, min: 1024 },
+    items: 5
+  },
+  desktop: {
+    breakpoint: { max: 1024, min: 800 },
+    items: 4
+  },
+  tablet: {
+    breakpoint: { max: 800, min: 464 },
+    items: 2
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1
+  }
+};
+
+export const productData = [
+  {
+    id:1,
+    url:"./img/product/round-card.jpg",
+    name:"my"
+  },
+  {
+    id:2,
+    url:"./img/product/round-card.jpg",
+    name:"my"
+  },
+  {
+    id:3,
+    url:"./img/product/round-card.jpg",
+    name:"my"
+  },
+  {
+    id:4,
+    url:"./img/product/round-card.jpg",
+    name:"my"
+  },
+  {
+    id:5,
+    url:"./img/product/round-card.jpg",
+    name:"my"
+  },
+  {
+    id:6,
+    url:"./img/product/round-card.jpg",
+    name:"my"
+  },
+  {
+    id:7,
+    url:"./img/product/round-card.jpg",
+    name:"my"
+  },
+  {
+    id:8,
+    url:"./img/product/round-card.jpg",
+    name:"my"
+  },
+]
+
+
+
+import React from 'react'
+
+function ProductSlide(props) {
+  return (
+    <div className='border border-solid border-green-500 w-44'>
+      <img className='w-full' src={props.url} alt="" />
+      <h2>{props.name}</h2>
+    </div>
+  )
+}
+
+export default ProductSlide

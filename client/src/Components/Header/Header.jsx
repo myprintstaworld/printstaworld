@@ -3,7 +3,7 @@ import React from "react";
 function Header() {
   return (
     <>
-      <header className="w-[1500px] ml-auto mr-auto">
+      <header className="w-auto ml-auto mr-auto">
         <div
           className="
       flex bg-[#E1E1E1]
