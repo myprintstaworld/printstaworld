@@ -35,7 +35,7 @@ function Header() {
             </button>
           </div>
         </div>
-        <div className="flex h-16 justify-between px-5">
+        <div className="flex h-16 justify-between px-5 w-[1390px] ml-auto mr-auto">
           <div className="flex items-center">
             <img
               className="w-14 h-14 mr-4"
@@ -65,34 +65,34 @@ function Header() {
             </button>
           </div>
         </div>
-        <div className="flex h-10 justify-between w-full">
-          <nav className="flex w-full  bg-[#842C83] text-white">
-            <ul className="flex w-full justify-between items-center">
-              <li className="hover:text-orange-500 cursor-pointer md:px-5 px-2 max-md:text-sm">
+        <div className="flex h-10 justify-center w-full bg-[#842C83]">
+          <nav className="flex text-white w-[1500px]">
+            <ul className="flex w-full justify-evenly items-center">
+              <li className="hover:text-orange-500 cursor-pointer md:px-2  max-md:text-sm">
                 Calendars
               </li>
-              <li className=" hover:text-orange-500 cursor-pointer md:px-5 px-2 max-md:text-sm">
+              <li className=" hover:text-orange-500 cursor-pointer md:px-2  max-md:text-sm">
                 Packaging
               </li>
-              <li className=" hover:text-orange-500 cursor-pointer md:px-5 px-2 max-md:text-sm">
+              <li className=" hover:text-orange-500 cursor-pointer md:px-2  max-md:text-sm">
                 Photo Gifts
               </li>
-              <li className=" hover:text-orange-500 cursor-pointer md:px-5 px-2 max-md:text-sm">
+              <li className=" hover:text-orange-500 cursor-pointer md:px-2  max-md:text-sm">
                 Same Day Delivery
               </li>
-              <li className=" hover:text-orange-500 cursor-pointer md:px-5 px-2 max-md:text-sm">
+              <li className=" hover:text-orange-500 cursor-pointer md:px-2  max-md:text-sm">
                 Rewards
               </li>
-              <li className=" hover:text-orange-500 cursor-pointer md:px-5 px-2 max-md:text-sm">
+              <li className=" hover:text-orange-500 cursor-pointer md:px-2  max-md:text-sm">
                 Decorate
               </li>
-              <li className=" hover:text-orange-500 cursor-pointer md:px-5 px-2 max-md:text-sm">
+              <li className=" hover:text-orange-500 cursor-pointer md:px-2  max-md:text-sm">
                 Stationery
               </li>
-              <li className=" hover:text-orange-500 cursor-pointer md:px-5 px-2 max-md:text-sm">
+              <li className=" hover:text-orange-500 cursor-pointer md:px-2  max-md:text-sm">
                 Sign & Markiting
               </li>
-              <li className=" hover:text-orange-500 cursor-pointer md:px-5 px-2 max-md:text-sm">
+              <li className=" hover:text-orange-500 cursor-pointer md:px-2  max-md:text-sm">
                 Corporate Gifts
               </li>
             </ul>

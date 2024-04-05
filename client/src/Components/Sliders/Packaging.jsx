@@ -46,7 +46,7 @@ function Packaging() {
     dots: false,
     infinite: false,
     speed: 500,
-    slidesToShow: 5,
+    slidesToShow: 6,
     slidesToScroll: 1,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />
@@ -61,7 +61,7 @@ function Packaging() {
     <div>
    <Slider {...settings}>
     {productData.map((item)=>(
-      <div className='bg-white my-5 w-40 shadow-xl rounded-xl'>
+      <div className='bg-white my-5 w-40  rounded-xl'>
         <div className='m-2 mb-0 flex justify-center items-center'>
         <img className='w-full h-52' src={item.url} alt="" />
         </div>
